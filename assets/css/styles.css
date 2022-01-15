@@ -1,0 +1,255 @@
+.main-bg {
+    background-image: url('../img/novo.svg');
+    background-size: cover;
+    background-position: center center;
+    color: var(--white);
+}
+
+.white-bg {
+  background: var(--white);
+  color: var(--primary-color);
+}
+
+
+.main-content {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding:10rem var(--gap);
+}
+
+.section {
+  min-height: 100vh;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1;
+  border-bottom: 0.1rem solid var(--greyc);
+}
+
+.menu-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.menu h1 {
+  font-size: 2.3rem;
+  color: var(--primary-color);
+}
+
+.menu h1 a {
+  color: inherit;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+}
+
+.menu ul li a {  
+  display: block;
+  padding: 2rem;
+  font-size: 1.8rem;
+  position: relative;
+}
+
+.menu ul li a::after {  
+  content: '';
+  position: absolute;
+  bottom: 0.7rem;
+  left: 25%;
+  width: 0%;
+  height: 0.2rem;
+  background: var(--secondcolor);
+  transition: 300ms ease-in-out;
+}
+
+.menu ul li a:hover::after  { 
+  width: 50%;
+  left: 25%;
+}
+
+.menu-spacing {
+  height: 65px;
+}
+
+.intro-content {
+  position: relative;
+ /* top: -7rem; */
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  align-items: stretch;
+  gap: var(--gap);
+  min-height: 100vh;
+}
+
+.intro-t-content,.intro-img {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.intro-img img {
+  max-width: 100%;
+  height: auto;
+
+}
+
+.dica-content {
+  display: flex;
+  /*flex-flow: column wrap;*/
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  min-height: 100vh;
+  max-width: 64rem;
+  text-align: center;
+}
+
+.grid-one-content {
+  flex-flow: column wrap;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.grid-main-heading {
+  margin-bottom: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: var(--gap);
+  counter-reset: grid-counter ;
+}
+
+.grid h3 {
+  font-size: 3rem;
+  position: relative;
+  padding-left: 5rem ;
+  padding-bottom: 3rem;
+}
+
+.grid h3::before {
+  counter-increment: grid-counter;
+  content: counter(grid-counter);
+  position: absolute;
+  font-size: 8rem ;
+  font-style: italic;
+  top: -4rem;
+  left: -2rem;
+  transform: rotate(5deg);
+}
+
+.grid-description {
+  padding-bottom: 5rem;
+}
+
+.gallery-img {
+  width: 100%;
+  max-width: 36rem;
+  max-height: 36rem;
+  overflow: hidden;
+}
+
+.gallery-img img {
+  transition: all 300ms  ease-in-out;
+}
+
+.gallery-img img:hover {
+  transform: translate(-3%, 3%) scale(1.3) rotate(5deg);
+}
+
+.cad-form {
+  grid-column: span 2 ;
+}
+
+.cad-form legend {
+  font-style: italic;
+  font-size: 1.6rem;
+  margin-bottom: 3rem;
+}
+
+
+
+.cad-form .cad-grid {
+  border: none;
+  font-display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap);
+}
+
+.cad-group {
+  
+  flex: 1 1 320px;
+}
+
+.cad-group label {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.cad-group input ,
+.cad-group textarea {
+  border: none;
+  background: var(--white);
+  padding: 1.5rem 2rem;
+  width: 100%;
+  font-size: 2rem;
+}
+
+.cad-group input:focus ,
+.cad-group textarea:focus {
+  box-shadow: 0 0 5px 5px rgb(4, 41, 4);
+}
+
+
+body .full-width {
+  width: 100%;
+  flex: 1 1 100%;
+}
+
+.cad-group button {
+  border: 0.5 rem solid var(--white);
+  background: none;
+  color: var(--white);
+  padding: 1.5rem 2rem;
+  font-size: 3rem;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+
+.cad-group button:hover {
+  border: 0.5rem solid green;
+  background:  var(--white);
+  color: var(--primary-color);
+}
+
+.cad-group ::placeholder {
+  color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

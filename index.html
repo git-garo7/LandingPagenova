@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>landing page</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/elements.css">
+  <link rel="stylesheet" href="assets/css/global.css">
+</head>
+
+<body>
+
+  <input id="close-menu" class="close-menu" type="checkbox" aria-label="close menu" role="button">
+  <label class="close-menu-label"for="close-menu" title="close menu"></label>
+  <aside class="menu white-bg">
+    <div class="main-content menu-content">
+      <h1 onclick="getElementById('close-menu').checked = false;">
+        <a href="#home">*GAMER-PAGE*</a>
+      </h1>
+      <nav>
+        <ul onclick="getElementById('close-menu').checked = false;">
+         <!-- <li><a href="#intro">Intro</a></li>tirei esse-->
+          <li><a href="#d-text">Dicas</a></li>
+          <li><a href="#grid-one">Grid One</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#tabela">Tabela</a></li>
+          <li><a href="#cadastro">Cadastre-se</a></li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+  <div class="menu-spacing"></div>
+  <section id="home" class="intro main-bg section">   
+    <div class="main-content intro-content">
+    <div class="intro-t-content">
+    <h2>
+      GANHE LEVEL.
+    </h2>
+    <p>
+     Bom,a idéia seria fazer uma landing page de "games",
+     porém vai ser uma LP aleatória(formulário-cadastro,galeria,background em svg,e imagens do undraw,tabela).
+    </p>   
+  </div>
+  <div class="intro-img">
+    <img src="assets/img/undraw.svg" alt="um rapaz e uma moça com controle grande no centro">
+  </div>
+</div>
+
+  </section>
+  <section id="d-text" class="white-bg section">
+    <div class="main-content dicas-content">
+      <h2>Dicas</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Etiam orci nisl, ultricies eu rutrum a, maximus non odio.
+        Etiam imperdiet pretium augue ac porttitor. 
+        Cras metus augue, pharetra ut ligula nec, feugiat cursus ante.
+        Aliquam nec risus maximus, fermentum mauris nec, iaculis est.
+        Pellentesque et turpis pharetra, vulputate nisi molestie, ullamcorper tortor.
+        Nunc faucibus dignissim erat, vitae volutpat risus egestas nec. Etiam vitae tempor leo. 
+        Integer viverra nibh nec pulvinar facilisis. Sed at orci eu neque iaculis imperdiet vel a nisi. 
+        Integer scelerisque, diam scelerisque hendrerit ullamcorper, ante magna ultricies justo, sed ultrices lorem mauris eget urna. 
+        Praesent quis leo ac urna rhoncus bibendum sit amet in neque. Curabitur auctor lacus quis suscipit sodales.
+      </p>
+      <p>Maecenas non ultricies risus, at accumsan velit. 
+        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+        Ut tincidunt elementum vulputate. Donec laoreet condimentum venenatis. 
+        Donec vel tincidunt augue, eget tincidunt tellus. 
+        Integer molestie nisl posuere, efficitur enim eu, cursus elit. 
+        Nullam pharetra tortor ac purus cursus commodo. 
+        Sed blandit, justo non dignissim fermentum, tellus turpis rutrum diam, id ultrices mi est quis ligula. 
+        Quisque mattis rutrum nisl, viverra fringilla velit dignissim eu.</p>
+    </div>
+  </section>
+  <section id="grid-one" class="grid-one main-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">MY GRID</h2>
+      <p class="grid-description">Seria local destinado a citar características de algo</p>
+      <div class="grid">
+        <article>
+          <h3>text1</h3>
+      <p>Donec vel tincidunt augue, eget tincidunt tellus. 
+        Integer molestie nisl posuere, efficitur enim eu, cursus elit.</p>
+       </article>
+       <article>
+        <h3>text2</h3>
+      <p>Donec vel tincidunt augue, eget tincidunt tellus. 
+      Integer molestie nisl posuere, efficitur enim eu, cursus elit.</p>
+       </article>
+      <article>
+      <h3>text3</h3>
+     <p>Donec vel tincidunt augue, eget tincidunt tellus. 
+    Integer molestie nisl posuere, efficitur enim eu, cursus elit.</p>
+    </article>
+      </div>
+    </div>
+    
+  </section>
+  <section id="gallery" class="grid-one white-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">GALLERY</h2>
+      <p class="grid-description">Short Description</p>
+      <div class="grid">
+        <div class="gallery-img">
+          <img src="https://images.unsplash.com/photo-1640808238224-5520de93c939?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=360&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY0MTkzNDgxOQ&ixlib=rb-1.2.1&q=80&w=360" alt="random image from unsplash" />
+        </div>
+        <div class="gallery-img">
+          <img src="https://images.unsplash.com/photo-1561910775-e3f47c5f984c?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=360&ixid=MnwxfDB8MXxyYW5kb218MHx8cnx8fHx8fDE2NDE5MzQ5MDA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=360" alt="random image from unsplash" />
+        </div>
+        <div class="gallery-img">
+          <img src="https://images.unsplash.com/photo-1551895861-312f49dc66e9?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=360&ixid=MnwxfDB8MXxyYW5kb218MHx8cnx8fHx8fDE2NDE5MzQ5Mzc&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=360" alt="random image from unsplash" />
+        </div>
+        <div class="gallery-img">
+          <img src="https://images.unsplash.com/photo-1612707894845-af2d2fe7b7f4?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=360&ixid=MnwxfDB8MXxyYW5kb218MHx8cnx8fHx8fDE2NDE5MzQ5NzQ&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=360" alt="random image from unsplash" />
+        </div>
+        <div class="gallery-img">
+          <img src="https://images.unsplash.com/photo-1512652683497-9d8ee4641be1?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=360&ixid=MnwxfDB8MXxyYW5kb218MHx8cnx8fHx8fDE2NDE5MzQ5OTk&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=360" alt="random image from unsplash" />
+        </div>
+        <div class="gallery-img">
+          <img src="https://images.unsplash.com/photo-1511370727486-ef2f0c456710?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=360&ixid=MnwxfDB8MXxyYW5kb218MHx8cnx8fHx8fDE2NDE5MzUwMjI&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=360" alt="random image from unsplash" />
+        </div>
+      </div>
+    </div>    
+  </section>
+  <section id="tabela" class="white-bg section">
+    <div class="main-content dicas-content">
+      <h2>Tabela</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Etiam orci nisl, ultricies eu rutrum a, maximus non odio.
+        Etiam imperdiet pretium augue ac porttitor. 
+        Cras metus augue, pharetra ut ligula nec, feugiat cursus ante.
+        Aliquam nec risus maximus, fermentum mauris nec, iaculis est.
+        Pellentesque et turpis pharetra, vulputate nisi molestie, ullamcorper tortor.
+        Nunc faucibus dignissim erat, vitae volutpat risus egestas nec. Etiam vitae tempor leo. 
+        Integer viverra nibh nec pulvinar facilisis. Sed at orci eu neque iaculis imperdiet vel a nisi. 
+        Integer scelerisque, diam scelerisque hendrerit ullamcorper, ante magna ultricies justo, sed ultrices lorem mauris eget urna. 
+        Praesent quis leo ac urna rhoncus bibendum sit amet in neque. Curabitur auctor lacus quis suscipit sodales.
+      </p>
+
+      <div class="responsive-table">
+      <table>
+        <caption>
+          Tabela Aleatória
+        </caption>
+
+        <thead>
+          <tr>
+          <th>A</th>
+          <th>B</th>
+          <th>C</th>
+          <th>D</th>
+          <th>E</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1-teste</td>
+            <td>2-teste</td>
+            <td>3-teste</td>
+            <td>4-teste</td>
+            <td>5-teste</td>
+          </tr>
+          <tr>
+            <td>6-random</td>
+            <td>7-random</td>
+            <td>8-random</td>
+            <td>9-random</td>
+            <td>10-random</td>
+          </tr>
+          <tr>
+            <td>11-lorem</td>
+            <td>12-lorem</td>
+            <td>13-lorem</td>
+            <td>14-lorem</td>
+            <td>15-lorem</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>TESTE</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+    </div>
+  </section>
+
+  <section id="cadastro" class="intro main-bg section">   
+    <div class="main-content intro-content">
+    <div class="intro-t-content">
+    <h2>
+      CADASTRE-SE LOGO ABAIXO
+    </h2>
+    <p>
+     um formulário com "input" de nome,sobrenome,email,prara front-end da landing page,e no fim mensagem e botão,
+     optei por não usar bootstrap no botão e seguir conforme o curso...
+    </p>   
+  </div>
+  <div class="intro-img">
+    <img src="assets/img/contact.svg" alt="um rapaz e uma moça com controle grande no centro">
+  </div>
+
+  <div class="cad-form">
+    <fieldset class="cad-grid">
+      <legend>
+        Cadastre-se
+      </legend>
+      <div class="cad-group">
+        <label for="first-name">Primeiro Nome</label>
+        <input type="text" name="first-name" id="first-name" placeholder="seu nome">
+      </div>
+
+      
+          <div class="cad-group">
+            <label for="last-name">Sobrenome</label>
+            <input type="text" name="last-name" id="last-name" placeholder="sobrenome">
+          </div>
+
+          
+            <div class="cad-group">
+              <label for="e-mail">Seu E-mail</label>
+              <input type="email" name="email" id="email" placeholder="seu e-mail">
+            </div>
+
+
+          
+            <div class="cad-group full-width">
+              <label for="message">Mensagem</label>
+              <textarea name="message" id="message" cols="30" rows="10" placeholder="digite aqui"></textarea>
+            </div>
+
+            <div class="cad-group full-width">
+              
+                <button type="submit">Enviar</button>
+              </div>
+
+
+    </fieldset>
+  </div>
+
+</div>
+
+  </section>
+<footer id="" class=" footer white-bg">
+  <p>
+    Feito com base da seção 19(bônus html e css) do curso de react do professor: Otávio Miranda
+  </p>
+</footer>
+<a href="#home" class="v-topo">➤</a>
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 63.7%;
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: 'open-sans',sans-serif;
+    font-size: 3rem; 
+    color: var(--primary-color); 
+    line-height: 1.5; 
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'montserrat',sans-serif;
+}
+
+h1 {
+    font-size: 5.7rem;
+    text-transform: uppercase;
+  }
+   
+  
+  h2 {
+    font-size: 3.7rem;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+    line-height: 1.2;
+  }
+  
+  h3 {
+    font-size: 5rem;
+  }
+  
+  h4 {
+    font-size: 4.5rem;
+  }
+  
+  h5 {
+    font-size: 4rem;
+  }
+  
+  h6 {
+    font-size: 3.5rem;
+  }
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin-bottom: 3rem;
+}
+
+table caption {
+  font-size: 1.7rem;
+  font-style: italic;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.responsive-table {
+  overflow: hidden;
+  overflow-x: auto;
+
+}
+
+table {
+  min-width: 360px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table td , table th {
+  white-space: nowrap;
+  padding: 0.5rem;
+  text-align: left;
+  border: 0.1rem solid var(--greyc);
+}
+
+tfoot td , table th{
+  background: green;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+  padding: 3rem;
+}
+
+.v-topo{
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background:green;
+  width: 5rem;
+  height: 5rem;
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  border-radius: 50%;
+  color: black;
+  transform: rotate(-90deg);
+  border: 0.1rem solid rgba(3, 31, 0, 0.521);
+}
+
+
+
+
